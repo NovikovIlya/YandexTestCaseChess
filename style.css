@@ -40,8 +40,10 @@ body {
 .knopki {
   display: flex;
   justify-content: center;
-  margin-top: -700px;
-  margin-bottom: 378px;
+  margin-top: -560px;
+  margin-bottom: 220px;
+  z-index: 1000000000000000000000;
+  position: relative;
 }
 .reed {
   margin-top: 50px;
@@ -3965,7 +3967,9 @@ body {
   width: auto;
   max-width: 1365px;
   margin-top: -700px;
-  min-height: 100%;
+  /* min-height: 100%; */
+  /* min-height: 73%; */
+  height: 1140px;
 }
 .btnPodr {
   width: auto;
