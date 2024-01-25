@@ -1192,6 +1192,7 @@ body {
 .btnPodrPc:hover {
   background-color: #3057a2;
   color: white;
+  cursor: pointer;
 }
 .element-desktop .overlap-11 {
   position: relative;
@@ -3970,6 +3971,14 @@ body {
   /* min-height: 100%; */
   /* min-height: 73%; */
   height: 1140px;
+}
+.swiperStylePc{
+  width: auto;
+  max-width: 1365px;
+  margin-top: -700px;
+  /* min-height: 100%; */
+  /* min-height: 73%; */
+  height: 600px;
 }
 .btnPodr {
   width: auto;
