@@ -1197,7 +1197,6 @@ body {
 .element-desktop .overlap-11 {
   position: relative;
   height: 112px;
-  /* background-image: url(https://c.animaapp.com/8AH1YEmD/img/image-23-5.png); */
   background-size: 100% 100%;
 }
 
@@ -1255,7 +1254,19 @@ body {
   left: 0;
   mix-blend-mode: color-burn;
 }
+.text-wrapper-00{
+  position: absolute;
+  top:71px;
+  left:300px;
+  font-family: Golos Text;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+color: #3057A2;
 
+}
 .element-desktop .frame-11 {
   position: absolute;
   width: 394px;
