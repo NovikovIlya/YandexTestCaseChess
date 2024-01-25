@@ -12,5 +12,9 @@ if (
 } else {
   console.log('Вы используете ПК.');
   document.querySelector('.mobile').classList.add('hidden');
+  document.querySelector('.mySwiper3').classList.add('hidden');
+  document.querySelector('.knopki').classList.add('hidden');
+  document.querySelector('.reed').classList.add('hidden');
+  document.querySelector('.footerMainMobile').classList.add('hidden');
   document.querySelector('.pc').classList.remove('hidden');
 }

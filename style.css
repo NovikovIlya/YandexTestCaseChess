@@ -1,7 +1,7 @@
-body{
+body {
   background-color: white !important;
 }
-.pc{
+.pc {
   overflow: hidden;
 }
 .hidden {
@@ -14,54 +14,57 @@ body{
   justify-content: center;
   width: 100%;
 }
-.kekImage{
+.kekImage {
   margin-top: 160px;
   z-index: 10000;
   position: relative;
 }
 .image {
-
   object-fit: contain;
   object-position: center;
   width: 100%;
   overflow: hidden;
   max-width: 302px;
 }
-.textCarouselMob{
+.textCarouselMob {
   margin-top: 25px;
   text-align: center !important;
   width: 100%;
 }
-.textSimpleCarouselMob{
+.textSimpleCarouselMob {
   margin-top: 25px;
 }
-.btnPodrMob{
+.btnPodrMob {
   margin-top: 25px;
 }
-.knopki{
+.knopki {
   display: flex;
   justify-content: center;
   margin-top: -700px;
   margin-bottom: 378px;
 }
-.reed{
+.reed {
   margin-top: 50px;
-  background-color:red;
+  background-color: red;
   width: 375px !important;
   position: relative;
   height: 38px;
   display: flex;
   align-items: center;
 }
-.whi{
+.whi {
   color: white;
 }
-.hh2{
+.hh2 {
   display: flex;
   align-items: center;
   margin: 10px;
 }
-.buton{
+.frame2:hover {
+  background-color: #fbce51 !important;
+  color: black !important;
+}
+.buton {
   border-radius: 50%;
   background-color: black;
   display: flex;
@@ -70,33 +73,51 @@ body{
   width: 44px;
   height: 44px;
 }
-.textMobileSwip{
+.buton2 {
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+}
+.buton3 {
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  transform: rotate(360deg);
+}
+.textMobileSwip {
   display: flex;
   align-items: center;
 }
-.footerMainMobile{
+.footerMainMobile {
   display: flex;
   justify-content: center;
 }
-.footerMobile{
+.footerMobile {
   height: 250px;
   width: 375px;
-  background-color:  #E9DED4;
-  display: flex ;
+  background-color: #e9ded4;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
 }
-.textFooter{
+.textFooter {
   font-family: Golos Text;
-font-size: 16px;
-font-weight: 400;
-line-height: 19px;
-letter-spacing: 0px;
-text-align: left;
-
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
 }
-.sw{
+.sw {
   height: auto !important;
 }
 .div {
@@ -162,7 +183,14 @@ text-align: left;
   background-color: #313131;
   border-radius: 22px;
 }
-
+.carousel-button:hover {
+  background-color: #fbce51 !important;
+  cursor: pointer;
+}
+.carousel-button-left:hover {
+  background-color: #fbce51 !important;
+  cursor: pointer;
+}
 .element-desktop .vector {
   position: absolute;
   width: 11px;
@@ -868,13 +896,13 @@ text-align: left;
   top: -47px;
   left: -27px;
 }
-.overlap-5{
+.overlap-5 {
   padding-top: 80px;
 }
-.frameFooterZ{
+.frameFooterZ {
   height: 150px;
 }
-.samolet{
+.samolet {
   margin-top: 140px;
   position: relative;
   z-index: 10000;
@@ -1078,7 +1106,7 @@ text-align: left;
 
 .element-desktop .text-wrapper-27 {
   position: absolute;
-  top: 10px;
+  top: 7px;
   left: 12px;
   font-weight: 600;
   font-size: 20px;
@@ -1115,7 +1143,7 @@ text-align: left;
 .element-desktop .overlap-10 {
   position: relative;
   height: 244px;
-  background-image: url(https://c.animaapp.com/8AH1YEmD/img/image-23-1.png);
+  /* background-image: url(https://c.animaapp.com/8AH1YEmD/img/image-23-1.png); */
   background-size: 100% 100%;
 }
 
@@ -1149,11 +1177,24 @@ text-align: left;
   background-image: url(https://c.animaapp.com/8AH1YEmD/img/cooper-union-stamp-paper-8.png);
   background-size: 100% 100%;
 }
-
+.textCarouselPc {
+  margin-top: 25px;
+}
+.textSimpleCarouselPc {
+  margin-top: 10px;
+}
+.btnPodrPc {
+  margin-top: 25px;
+  z-index: 1000000000000;
+}
+.btnPodrPc:hover {
+  background-color: #3057a2;
+  color: white;
+}
 .element-desktop .overlap-11 {
   position: relative;
   height: 112px;
-  background-image: url(https://c.animaapp.com/8AH1YEmD/img/image-23-5.png);
+  /* background-image: url(https://c.animaapp.com/8AH1YEmD/img/image-23-5.png); */
   background-size: 100% 100%;
 }
 
@@ -1712,7 +1753,7 @@ body {
 .swiper {
   width: 100%;
   height: 300px;
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 .ima {
   width: 320px !important;
@@ -1721,7 +1762,6 @@ body {
   border-radius: 195.56px;
 }
 .hhw {
- 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -2024,6 +2064,7 @@ body {
   background-color: #ffffff;
   border-radius: 66px;
   opacity: 0.9;
+  margin-top: 10px;
 }
 
 .element1 .label-2 {
@@ -2577,9 +2618,11 @@ body {
   gap: 16px;
   position: absolute;
   top: 652px;
-  left: 79px;
+  left: 70px;
 }
-
+.opac {
+  opacity: 35%;
+}
 .element1 .carousel-button-left {
   background-color: #31313133;
   transform: rotate(-180deg);
@@ -2770,7 +2813,9 @@ body {
   letter-spacing: 0;
   line-height: 39.6px;
 }
-
+.text28 {
+  top: 73px !important;
+}
 .element1 .text-wrapper-28 {
   position: absolute;
   width: 335px;
@@ -3766,6 +3811,17 @@ body {
   flex: 1;
   flex-grow: 1;
   border-radius: 66px;
+
+  margin-top: -1px;
+  color: #ffffff;
+  position: relative;
+  width: 165px;
+  font-family: 'Montserrat', Helvetica;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.2px;
 }
 
 .element2 .label2 {
@@ -3793,6 +3849,24 @@ body {
   flex: 1;
   flex-grow: 1;
   border-radius: 66px;
+
+  margin-top: -2px;
+  color: #302f2f;
+  position: relative;
+  width: 165px;
+  font-family: 'Montserrat', Helvetica;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.2px;
+}
+.label-wrapper2:hover {
+  background-color: #1f1f1f;
+  color: white !important;
+}
+.label-22:hover {
+  color: white !important;
 }
 
 .element2 .label-22 {
@@ -3893,7 +3967,7 @@ body {
 }
 .btnPodr {
   width: auto;
-  height: 44px;
+  height: 50px;
   top: 427px;
   left: 141px;
   padding: 12px;
@@ -3903,34 +3977,33 @@ body {
   background: white;
   border: 1px solid #3057a2;
 }
-.spanStyle{
+.spanStyle {
   padding-bottom: 5px;
 }
-.textCarousel{
+.textCarousel {
   font-family: Golos Text;
-font-size: 24px;
-font-weight: 600;
-line-height: 29px;
-letter-spacing: 0px;
-text-align: left;
-
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
 }
-.textSimpleCarousel{
+.textSimpleCarousel {
   font-family: Golos Text;
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0px;
-text-align: left;
-width: 100%;
-text-align: center;
-opacity: 60%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 100%;
+  text-align: center;
+  opacity: 60%;
 }
 
-.mobile{
-  margin-top: -72px;
+.mobile {
+  margin-top: 0px;
 }
-.bbb{
+.bbb {
   width: 263px;
 }
 
@@ -4038,21 +4111,21 @@ opacity: 60%;
   width: 243px;
   font: 500 18px/22px Golos Text, sans-serif;
 }
-.numberImage{
-    width: 36px !important;
-    height: 36px !important;
+.numberImage {
+  width: 36px !important;
+  height: 36px !important;
 }
-.boxGray{
+.boxGray {
   width: 335px;
   height: 300px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: #CABEAB;
+  background-color: #cabeab;
 }
-.numbersCicle{
-  background: #FFFFFF;
+.numbersCicle {
+  background: #ffffff;
   width: 36px;
   height: 36px;
   top: 62px;
@@ -4065,25 +4138,22 @@ opacity: 60%;
   justify-content: center;
   margin-right: 10px;
 }
-.vb{
+.vb {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.textBox{
+.textBox {
   text-align: start;
   width: 239px;
   font-family: Golos Text;
-font-size: 18px;
-font-weight: 500;
-line-height: 22px;
-letter-spacing: 0px;
-text-align: left;
-
-
-
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
 }
-.btn2{
+.btn2 {
   transform: rotate(180deg);
 }
