@@ -3580,7 +3580,8 @@ body {
 .frameFooter {
   position: relative;
   width: 100%;
-  height: auto;
+  /* height: auto; */
+  height: 160px;
   background-color: #e9ded4;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(1222px, 1fr));
@@ -3607,7 +3608,8 @@ body {
   display: flex;
   align-items: center;
   background-color: #f54932;
-  margin-top: -150px;
+  /* margin-top: -150px; */
+  margin-top: 40px;
 }
 .tt {
   position: relative;
