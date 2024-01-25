@@ -1,0 +1,8 @@
+{
+    "name": "sandpack-project",
+    "main": "/index.html",
+    "dependencies": {
+        "swiper": "^11.0.5"
+    },
+    "type": "module"
+}
